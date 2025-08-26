@@ -1,0 +1,12 @@
+id,name,age,department,salary,start_date
+1,Alice,29,Engineering,75000,2020-03-15
+2,Bob,34,Marketing,62000,2019-07-01
+3,Charlie,41,Engineering,83000,2018-11-20
+4,David,28,HR,54000,2021-06-10
+5,Eva,37,Finance,91000,2017-01-25
+6,Frank,,Marketing,60000,2020-09-30
+7,Grace,45,Finance,,2016-05-12
+8,Hannah,32,Engineering,77000,2019-08-14
+9,Ian,39,HR,58000,2021-02-03
+10,Julia,26,Engineering,71000,2022-01-19
+
