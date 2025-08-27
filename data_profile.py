@@ -31,6 +31,7 @@ def main():
     # - Show top 5 rows
     print(df.head())
     # - Show column data types
+    print(df.dtypes)
     # - Show missing value summary
     # - (Stretch) Export summary to JSON
 
