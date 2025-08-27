@@ -29,6 +29,7 @@ def main():
 
     # TODO: Add functionality:
     # - Show top 5 rows
+    print(df.head())
     # - Show column data types
     # - Show missing value summary
     # - (Stretch) Export summary to JSON
