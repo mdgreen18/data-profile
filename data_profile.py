@@ -29,10 +29,24 @@ def main():
 
     # TODO: Add functionality:
     # - Show top 5 rows
+    print("\n=== Top 5 rows ===")
     print(df.head())
     # - Show column data types
+    print("\n=== Column data types ===")
     print(df.dtypes)
     # - Show missing value summary
+    missing_summary = df.isnull().sum() # counts each columns missing data
+    missing_percent = (df.isnull().mean() * 100).round(2) # percentage per column
+
+    # make a new data frame to put the values into columns 
+    summary_df = pd.DataFrame({
+        "Missing Values": missing_summary,
+        "Percent Missing": missing_percent
+    })
+
+    print("\n=== Missing value summary ===")
+    print(summary_df)
+    print("\nTotal missing values in dataset:", missing_summary.sum())
     # - (Stretch) Export summary to JSON
 
 if __name__ == "__main__":
